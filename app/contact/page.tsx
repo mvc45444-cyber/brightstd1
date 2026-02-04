@@ -66,8 +66,8 @@ export default function ContactPage() {
                 <div className="relative z-10">
                    <h3 className="text-xl font-bold mb-2">Direct Email</h3>
                    <p className="text-slate-300 mb-6">Prefer email? No problem.</p>
-                   <a href="mailto:hello@brightstudio.online" className="inline-flex items-center gap-2 bg-amber-500 text-white font-bold px-6 py-3 rounded-lg hover:bg-amber-600 transition-colors">
-                      <Mail className="w-4 h-4" /> hello@brightstudio.online
+                   <a href="mailto:support@brightstudio.online" className="inline-flex items-center gap-2 bg-amber-500 text-white font-bold px-6 py-3 rounded-lg hover:bg-amber-600 transition-colors">
+                      <Mail className="w-4 h-4" /> support@brightstudio.online
                    </a>
                    <p className="mt-6 text-xs text-slate-400 opacity-80">
                       We typically respond within 24-48 hours.
