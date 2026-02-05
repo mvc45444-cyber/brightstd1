@@ -10,7 +10,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'Selling your phone? Protect your privacy with military-grade data erasure. Learn how Coolmuster Android Eraser ensures your deleted files can never be recovered.',
     date: 'February 5, 2026',
     coverImage: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3',
-    author: 'Alex Rivera',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -332,7 +331,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'A comprehensive framework for evaluating software, avoiding feature bloat, and ensuring your team actually uses the tools you buy.',
     date: 'March 10, 2024',
     coverImage: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71',
-    author: 'Sarah Jenkins',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -395,7 +393,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'Understand the hidden costs of software. We break down the most common pricing models and which one is better for scaling companies.',
     date: 'March 5, 2024',
     coverImage: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f',
-    author: 'Mike Chen',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -454,7 +451,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'The essential stack for modern startups. From remote work communication to automated payroll, here is what you need to survive.',
     date: 'February 20, 2024',
     coverImage: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c',
-    author: 'Alex Rivera',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -503,7 +499,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'Don\'t get locked into a long-term contract without reading this first. Learn how to spot hidden fees and implementation traps.',
     date: 'February 28, 2024',
     coverImage: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40',
-    author: 'Sarah Jenkins',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -542,7 +537,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'Cloud vs Local? We explore the security, cost, and maintenance differences between modern SaaS and traditional on-premise solutions.',
     date: 'January 15, 2024',
     coverImage: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa',
-    author: 'Mike Chen',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
@@ -591,7 +585,6 @@ export const blogs: BlogPost[] = [
     excerpt: 'Why reading side-by-side comparisons is better than reading marketing pages. Learn to spot the subtle differences between tools.',
     date: 'January 10, 2024',
     coverImage: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7',
-    author: 'Alex Rivera',
     content: (
         <>
             <p className="lead text-xl text-slate-600 mb-8">
