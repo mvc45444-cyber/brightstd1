@@ -1,4 +1,4 @@
-import { Mail, MessageSquare, ShieldCheck, Zap } from 'lucide-react';
+import { Mail, MessageSquare, ShieldCheck, Zap, MapPin, User } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
@@ -76,6 +76,44 @@ export default function ContactPage() {
                 {/* Decoration */}
                 <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-amber-500 opacity-10 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-40 h-40 bg-amber-400 opacity-20 rounded-full blur-3xl"></div>
+             </div>
+
+             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+                <h2 className="text-2xl font-bold text-slate-900 mb-6">Contact Details</h2>
+                <ul className="space-y-5">
+                  <li className="flex items-start gap-4">
+                    <div className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0 mt-1">
+                      <User className="w-4 h-4 text-amber-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Moses Ngigi Githinji</h3>
+                      <p className="text-slate-600 text-sm">Owner / Contact Person</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0 mt-1">
+                      <Mail className="w-4 h-4 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Email</h3>
+                      <a href="mailto:support@brightstudio.online" className="text-amber-600 hover:text-amber-700 text-sm transition-colors">support@brightstudio.online</a>
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-4">
+                    <div className="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 mt-1">
+                      <MapPin className="w-4 h-4 text-green-600" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-slate-900">Address</h3>
+                      <p className="text-slate-600 text-sm leading-relaxed">
+                        Flat 402 Al Yousuf Residence,<br />
+                        Al Souk Al Kabeer Road, Bur Dubai,<br />
+                        Meena Bazaar, Dubai,<br />
+                        United Arab Emirates
+                      </p>
+                    </div>
+                  </li>
+                </ul>
              </div>
 
           </div>
