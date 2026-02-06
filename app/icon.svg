@@ -1,0 +1,10 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Back mountain - darker -->
+  <path d="M4 42L16 10L28 42H4Z" fill="#475569"/>
+  <!-- Front mountain -->
+  <path d="M14 42L28 6L42 42H14Z" fill="#1e293b"/>
+  <!-- Amber cap accent -->
+  <path d="M28 6L23 17H33L28 6Z" fill="#d97706"/>
+  <!-- Bright peak detail -->
+  <path d="M28 6L25 12H31L28 6Z" fill="#f59e0b"/>
+</svg>

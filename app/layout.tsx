@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Bright Studio | SaaS Software Comparisons",
   description: "Find the best software tools for your business with our in-depth comparisons.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   },
 };
 
